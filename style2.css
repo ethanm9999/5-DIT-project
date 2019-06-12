@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #F44336;
+    box-shadow: 0 10px 20px;
+    text-align: center;
+}
+header h1 a {
+    font-size: 200%;
+    float: left;
+    padding: 25px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+
+nav li, nav a {
+    display: inline-block;
+}
+
+nav ul {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 25px 20px;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #FF5722;
+}
+
+nav li {
+    padding: 10px 0px;
+}
+
+.train{
+    background-image: url(train.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-block {
+    margin: 50px auto;
+    max-width: 1200px;
+    width: 90%;
+    line-height: 150%;
+    text-align: justify;
+}
+.img-gallery {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.img-gallery img {
+    width: 150%;
+}
+
+.season {
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 40px 0;
+}
+
+#summer {
+      background-image: linear-gradient(rgb(170 152 244 / 0.6), rgb(20 0 255 / 0.6)), url(holidaysmmer.jpg);
+}
+
+#winter {
+      background-image: linear-gradient(rgb(218 210 248 / 0.6), rgb(218 210 248 / 0.6)), url(wintainswitzerland.jpg);
+}
+
+.season h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 200px;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #FF463C;
+    padding: 25px 20px;
+}

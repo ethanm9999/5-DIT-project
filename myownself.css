@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+
+h1 {
+    color: aqua;
+    font-size: 45px;
+    font-weight: 300;
+    padding: 40px 150px;
+    margin-top: 75px; 
+}
+
+h2 {
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: 300;
+}
+section p {
+    line-height: 150%;
+    margin: 40px 0px;
+    max-width: 900px;
+    text-align: justify;
+}
+
+a {
+    color: #1976D2;
+    text-decoration: none; 
+}
+
+section {
+    margin: 0 auto;
+    width: 754px;
+}
+
+section ul {
+    margin-left: 50px;
+}
+
+h1, h2, footer, nav ul, a, * {
+    text-align: center;
+}
+
+header {
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+body {
+    margin-left: 20px;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+nav {
+    background-color: #2196F3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    padding: 5px 5px;
+}
+
+nav li, nav a {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 5px solid rgba(25, 118, 210, 0)
+}
+
+.active {
+    border-top: 5px solid #536DFE;
+}
+
+nav a:hover {
+    color: #212121;
+    border-bottom: 5px solid black;
+}
+
+img {
+    margin-top: 40px;
+}
+footer {
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 40px 150px;
+    margin-top: 40px;
+}
+
+.text-block {
+    margin: 50px auto;
+    max-width: 1200px;
+    width: 70%;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.hobby {
+    background-image: url(mountainlifewbs/usa_today_12874106.0.jpg);
+    height: 500px;
+    text-decoration: none;
+    color: #FFEB3B;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+}
+
+.hobby h2 {
+    text-align: center;
+    font-size: 100%;
+}
+
+#personality {
+    background-image: url(7-How-to-Draw-a-Man-for-Kids.jpg);
+}
